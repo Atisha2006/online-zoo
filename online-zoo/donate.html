@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg" sizes="32x32" href="assets/icons/panda_widget1.svg">
+  <title>Online-zoo</title></head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__wrap">
+        <h1 class="h1_hide">PetStory Online</h1>
+        <a href="index.html" class="logo">
+          <img alt="logo" src="assets/icons/logo.svg" class="logo__img"/>
+        </a>
+        <nav class="nav">
+          <span class="nav__burger"><span class="nav__burger-icon"></span></span>
+          <ul class="nav__list">
+            <li class="nav__item nav__item_hide nav__item_logo"><a href="index.html" class="logo logo_nav">
+            </a></li>
+            <li class="nav__item"><a href="index.html" class="nav__link active">About</a></li>
+            <li class="nav__item"><a href="map.html" class="nav__link">Map</a></li>
+            <li class="nav__item"><a href="panda.html" class="nav__link">Zoos</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Contact us</a></li>
+            <li class="nav__item nav__item_hide"><a href="donate.html" class="nav__link">Donate</a></li>
+            <li class="nav__item"><a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" class="nav__link">Designed by @</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  
+  
+  <main>
+    <section class="donation">
+      <div class="container">
+        <div class="donation__wrap">
+          <h3 class="donation__title">THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h3>
+          <p class="donation__text">Even though the Zoo has been able to reopen, we are at a greatly reduced capacity with educational programs and public and private events cancelled or postponed for additional months. We need you now more than ever to help ensure that we overcome these challenges. We have been actively raising funds in the community, and we are grateful for the generosity. But much more support is still needed, and we need your help! Please consider a gift today – no matter what size – to help us sustain our mission.</p>
+          <h3 class="donation__subtitle">Donation Information</h3>
+        </div>
+        <div class="donation__pick-feed">
+          <h2 class="donation__pick-feed-title">Pick and feed a friend</h2>
+          <h4 class="donation__pick-feed-subtitle">We know the animals bring you joy, and in these extraordinary times, we’re glad.</h4>
+          <div class="donation-diet">
+            <div class="donation-diet__desc">
+              <span class="donation-diet__number">4</span>
+              <p>Panda diet for the day.</p>
+            </div>
+            <img src="assets/icons/panda_widget1.svg" alt="panda" class="donation-diet__img">
+          </div>
+          <div class="donation__amount-wrap">
+            <p>Amount</p>
+              <div class="donation__amount">
+                <form class="donate__form">
+                  <div class="donate__amount">
+                    <label for="5000" class="donate__label">
+                      <input type="radio" name="amount" id="5000" value="5000" class="donate__radio-btn">
+                      <span class="amount-number">$5000</span>
+                      <span class="checkmark"></span>
+                    </label>
+                    <label for="2000" class="donate__label">
+                      <input type="radio" name="amount" id="2000" value="2000" class="donate__radio-btn">
+                      <span class="amount-number">$2000</span>
+                      <span class="checkmark"></span>
+                    </label>
+                    <label for="1000" class="donate__label">
+                      <input type="radio" name="amount" id="1000" value="1000" class="donate__radio-btn">
+                      <span class="amount-number">$1000</span>
+                      <span class="checkmark"></span>
+                    </label>
+                    <label for="500" class="donate__label">
+                      <input type="radio" name="amount" id="500" value="500" class="donate__radio-btn">
+                      <span class="amount-number">$500</span>
+                      <span class="checkmark"></span>
+                    </label>
+                    <label for="250" class="donate__label">
+                      <input type="radio" name="amount" id="250" value="250" class="donate__radio-btn">
+                      <span class="amount-number">$250</span>
+                      <span class="checkmark"></span>
+                    </label>
+                    <label for="100" class="donate__label">
+                      <input type="radio" name="amount" id="100" value="100" class="donate__radio-btn" checked>
+                      <span class="amount-number">$100</span>
+                      <span class="checkmark"></span>
+                    </label>
+                    <label for="50" class="donate__label">
+                      <input type="radio" name="amount" id="50" value="50" class="donate__radio-btn">
+                      <span class="amount-number">$50</span>
+                      <span class="checkmark"></span>
+                    </label>
+                    <label for="25" class="donate__label">
+                      <input type="radio" name="amount" id="25" value="25" class="donate__radio-btn">
+                      <span class="amount-number">$25</span>
+                      <span class="checkmark"></span>
+                    </label>
+                  </div>
+                  <div class="donate__another-amount">
+                    <input class="donate__input_amount" type="number" min="1" max="9999" value="100" required>
+                    <span class="dollar"></span>
+                    <span class="another-amount__label">Another amount</span>
+                  </div>
+                  <div class="donate-period">
+                    <label for="monthly" class="donate-period__label">
+                      <input type="radio" value="monthly" name="period" class="donate-period__input" id="monthly" checked>Monthly
+                    </label>
+                    <label for="once" class="donate-period__label">
+                      <input type="radio" value="once" name="period" class="donate-period__input" id="once">Once
+                    </label>
+                  </div>
+                  <div class="feed-friend">
+                    <button class="btn btn_round btn_donate btn_modal-donate" type="button">Feed a friend now</button>
+                    <p>Share with your friends on social networks</p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrap">
+        <div class="footer__col footer__col_logo">
+          <a href="index.html" class="logo logo_footer">
+            <img alt="logo" src="assets/icons/logo.svg" class="logo__img"/>
+          </a>
+        </div>
+        <div class="footer__col footer__col_form">
+          <div class="subscribe">
+            <div class="subscribe__title">Subscribe to our news</div>
+            <form method="post" class="form subscribe-form" data-action="">
+              <input type="email" class="form__input" name="email"  placeholder="Enter your email" pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+.)+[A-z]{2,4}$" required value=""/>
+              <button type="submit" class="form__button">Submit</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer__col footer__col_donate">
+          <a href="donate.html" class="btn-link btn-link_donate">donate for volunteers</a>
+        </div>
+        <div class="footer__col footer__col_social">
+          <ul class="social">
+            <li class="social__item">
+              <a href="https://ru-ru.facebook.com/" class="social__link">
+                <img alt="Facebook" src="assets/icons/fb.svg" class="social__img"/>
+                <span class="social__title">Facebook</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://twitter.com/" class="social__link">
+                <img alt="Twitter" src="assets/icons/tw.svg" class="social__img"/>
+                <span class="social__title">Twitter</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://www.instagram.com/" class="social__link">
+                <img alt="Instagram" src="assets/icons/inst.svg" class="social__img"/>
+                <span class="social__title">Instagram</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://www.youtube.com/" class="social__link">
+                <img alt="YouTube" src="assets/icons/yt.svg" class="social__img"/>
+                <span class="social__title">YouTube</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col footer__col_nav">
+          <nav class="nav-bottom">
+            <ul class="nav-bottom__list">
+              <li class="nav-bottom__item"><a href="#" class="nav-bottom__link active">About</a></li>
+              <li class="nav-bottom__item"><a href="map.html" class="nav-bottom__link">Map</a></li>
+              <li class="nav-bottom__item"><a href="panda.html" class="nav-bottom__link">Zoos</a></li>
+              <li class="nav-bottom__item"><a href="" class="nav-bottom__link">Contact us</a></li>
+            </ul>        
+          </nav>
+        </div>
+        <div class="footer__col footer__col_copyright">
+          <a class="copyright__wrap" href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">
+            <span class="designed">Designed by Alisa Samborskaya</span>
+            <span class="copyright">©RSSchool & ©Yem Digital 2021</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="overlay hidden"></div>
+  <div class="modal-donate hidden">
+    <form class="modal-donate__form">
+      <h3 class="modal-donate__title">Donation Information</h3>
+      <div class="modal-donate__field">
+        <div class="modal-donate__left-col">
+          <label class="modal-donate__label" for="input-amount">Amount:</label>
+        </div>
+        <div class="modal-donate__right-col">
+          <div class ="form-pole">
+            <input id="input-amount" class="modal-donate__input-amount" name="input-amount" type="number" placeholder="1000">
+            <span class="dollar"></span>
+          </div>
+        </div>
+      </div>
+      <h3 class="modal-donate__title">Additional information</h3>
+  <!--    <div class="modal-donate__block">
+        <div class="modal-donate__left-col"></div>
+        <div class="modal-donate__right-col">
+          <input id="checkbox-share" class="modal-donate__checkbox-share" name="checkbox-share" type="checkbox">
+          <label class="modal-donate__checkbox-label" for="checkbox-share">Share with your friends on social
+            networks</label>
+          <div class="modal-donate__socials">
+            <a href=""><img class="modal-donate__socials-img" src="assets/images/fb.png" alt=""></a>
+            <a href=""><img class="modal-donate__socials-img" src="assets/images/inst.png" alt=""></a>
+            <a href=""><img class="modal-donate__socials-img" src="assets/images/tw.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="modal-donate__block">
+        <div class="modal-donate__left-side modal-donate__left-text">Corporate:</div>
+        <div class="modal-donate__right-side">
+          <input class="modal-donate__checkbox_corporate" name="checkbox-corporate" id="checkbox-corporate" type="checkbox">
+          <label class="modal-donate__checkbox_label" for="checkbox-corporate">This donation is on behalf of a
+            company</label>
+        </div>
+      </div>
+  
+      <div class="modal-donate__inputs_wrapper modal-donate__inputs_wrapper_anonymous">
+        <div class="modal-donate__left-side modal-donate__left-text">Anonymous:</div>
+        <div class="modal-donate__right-side">
+          <input class="modal-donate__checkbox_anonymous" name="checkbox-anonymous" id="checkbox-anonymous" type="checkbox">
+          <label class="modal-donate__checkbox_label" for="checkbox-anonymous">I prefer to make this donation
+            anonymously</label>
+        </div>
+      </div>
+  
+      <div class="modal-donate__inputs_wrapper modal-donate__inputs_wrapper_comments">
+        <label class="modal-donate__checkbox_label modal-donate__left-text" for="checkbox-anonymous">Comments:</label>
+        <textarea class="modal-donate__comments" name="textarea-comments" id="textarea-comments" type="checkbox"></textarea>
+      </div>
+  
+      <h3 class="modal-donate__title">Payment information</h3>
+      <div class="modal-donate__inputs_wrapper modal-donate__inputs_wrapper_name">
+        <label class="modal-donate__label modal-donate__left-text" for="name-input"><span class="sup-star">*</span>
+          Cardholder's Name:</label>
+        <input class="modal-donate__name_input" name="name-input" id="name-input" type="text">
+      </div>
+  
+      <div class="modal-donate__inputs_wrapper modal-donate__inputs_wrapper_card-type">
+        <label class="modal-donate__label modal-donate__left-text" for="card-type-input"><span class="sup-star">*</span> Card Type:</label>
+        <span class="modal-donate__card-type_span"><input class="modal-donate__card-type_input" name="card-type-input" id="card-type-input" type="text"></span>
+      </div>
+  
+      <div class="modal-donate__inputs_wrapper modal-donate__inputs_wrapper_card-number">
+        <label class="modal-donate__label modal-donate__left-text" for="card-number-input"><span class="sup-star">*</span> Credit Card Number:</label>
+        <input class="modal-donate__card-number_input" name="card-number-input" id="card-number-input" type="text">
+      </div>
+  -->
+      <div class="modal-donate__inputs_wrapper modal-donate__inputs_wrapper_card-exp">
+        <label class="modal-donate__label modal-donate__left-text" for="card-exp-input"><span class="sup-star">*</span> Card Expiration:</label>
+        <div class="modal-donate__right-side">
+          <span class="modal-donate__card-exp_span1"><input class="modal-donate__card-exp_input" name="card-exp-input" id="card-exp-input" type="text"></span>
+          <span class="modal-donate__card-exp_span2"><input class="modal-donate__card-exp_input" name="card-exp-input" id="card-exp-input" type="text"></span>
+        </div>
+      </div>
+  
+      <div class="modal-donate__inputs_wrapper modal-donate__inputs_wrapper_card-code">
+        <label class="modal-donate__label modal-donate__left-text" for="card-code-input"><span class="sup-star">*</span> Card Security Code:</label>
+        <input class="modal-donate__card-code_input" name="card-code-input" id="card-code-input" type="number" placeholder="0000">
+      </div>
+  
+      <div class="modal-donate__inputs_wrapper modal-donate__inputs_wrapper_amount">
+        <label class="modal-donate__label modal-donate__left-text" for="amount-input">Amount:</label>
+        <div class="modal-donate__right-side">
+          <input class="modal-donate__amount_input" name="amount-input" id="amount-input" type="number" placeholder="1000">
+          <svg class="modal-donate__dollar_svg">
+            <use xlink:href="../../assets/icons/dollar.svg#dollar"></use>
+          </svg>
+        </div>
+      </div>
+  
+      <button class="btn modal-donate__button" type="button">Donate now</button>
+    </form>
+  </div>
+  <script src="js/app.js"></script>
+  <script src="js/donate.js"></script>
+  
+  
+  
+
+</body>
+</html>

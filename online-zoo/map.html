@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg" sizes="32x32" href="assets/icons/panda_widget1.svg">
+  <title>Online-zoo</title></head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__wrap">
+        <h1 class="h1_hide">PetStory Online</h1>
+        <a href="index.html" class="logo">
+          <img alt="logo" src="assets/icons/logo.svg" class="logo__img"/>
+        </a>
+        <nav class="nav">
+          <span class="nav__burger"><span class="nav__burger-icon"></span></span>
+          <ul class="nav__list">
+            <li class="nav__item nav__item_hide nav__item_logo"><a href="index.html" class="logo logo_nav">
+            </a></li>
+            <li class="nav__item"><a href="index.html" class="nav__link active">About</a></li>
+            <li class="nav__item"><a href="map.html" class="nav__link">Map</a></li>
+            <li class="nav__item"><a href="panda.html" class="nav__link">Zoos</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Contact us</a></li>
+            <li class="nav__item nav__item_hide"><a href="donate.html" class="nav__link">Donate</a></li>
+            <li class="nav__item"><a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" class="nav__link">Designed by @</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  
+  
+  <main class="main main_map">
+  <section class="map">
+    <div class="map__img-wrap">
+          <!-- <object class="map__world-map" type="image/svg+xml" data="assets/icons/map.svg">
+          </object> -->
+          <img alt="World map" src="assets/icons/map.svg" class="map__img"/>
+          <div class="map__location-name map__location-name_china">China</div>
+          <div class="map__location-name map__location-name_congo">Congo</div>
+          <div class="map__location-name map__location-name_united-states">United States</div>
+          <div class="map__location-name map__location-name_los-angeles">Los Angeles</div>
+          <div class="map__location-name map__location-name_florida">Florida</div>
+  
+          <div class="map__location map__location_china">
+            <!--<svg class="map__icon">
+              <use xlink:href="assets/icons/map-icon.svg#map-icon"></use>
+            </svg> -->
+            <img class="map__icon" src="assets/icons/map-icon.svg"/>
+            <div class="map__tooltip">
+              <p class="map__tooltip-text">Pandas<br>
+               China</p>
+              <a href="panda.html" class="map__tooltip-btn">Watch online</a>
+            </div>
+          </div>
+  
+          <div class="map__location map__location_china2">
+            <!--<svg class="map__icon">
+              <use xlink:href="assets/icons/map-icon.svg#map-icon"></use>
+            </svg> -->
+            <img class="map__icon" src="assets/icons/map-icon.svg"/>
+            <div class="map__tooltip">
+              <p class="map__tooltip-text">Pandas<br>
+               China</p>
+              <a href="panda.html" class="map__tooltip-btn">Watch online</a>
+            </div>
+          </div>
+  
+          <div class="map__location map__location_congo">
+            <!--<svg class="map__icon">
+              <use xlink:href="assets/icons/map-icon.svg#map-icon"></use>
+            </svg> -->
+            <img class="map__icon" src="assets/icons/map-icon.svg"/>
+            <div class="map__tooltip">
+              <p class="map__tooltip-text">Gorilla<br>
+               Congo, Africa</p>
+              <a href="gorilla.html" class="map__tooltip-btn">Watch online</a>
+            </div>
+          </div>
+  
+          <div class="map__location map__location_los-angeles">
+            <!--<svg class="map__icon">
+              <use xlink:href="assets/icons/map-icon.svg#map-icon"></use>
+            </svg> -->
+            <img class="map__icon" src="assets/icons/map-icon.svg"/>
+            <div class="map__tooltip">
+              <span class="map__tooltip_transparent-border"></span>
+              <p class="map__tooltip-text">Eagles<br>
+               Los Angeles, USA</p>
+              <a href="eagle.html" class="map__tooltip-btn">Watch online</a>
+            </div>
+          </div>
+  
+          <div class="map__location map__location_florida">
+            <!--<svg class="map__icon">
+              <use xlink:href="assets/icons/map-icon.svg#map-icon"></use>
+            </svg> -->
+            <img class="map__icon" src="assets/icons/map-icon.svg"/>
+            <div class="map__tooltip">
+              <span class="map__tooltip_transparent-border"></span>
+              <p class="map__tooltip-text">Alligators<br>
+                Florida, USA</p>
+                <a href="alligator.html" class="map__tooltip-btn">Watch online</a>
+            </div>
+          </div>
+    </div>
+  
+    <div class="map__nav">
+      <div class="map__nav-wrap">
+        <svg class="map__map-plus">
+          <use xlink:href="#map-plus"></use>
+        </svg>  
+        <svg class="map__map-minus">
+          <use xlink:href="#map-minus"></use>
+        </svg>
+      </div>
+    </div>
+  </section>
+  </main>
+  
+  
+  <svg style="display: none;" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="map-plus" viewBox="0 0 54 54">
+      <path
+        d="M0 5C0 2.23858 2.23858 0 5 0H49C51.7614 0 54 2.23858 54 5V49C54 51.7614 51.7614 54 49 54H5C2.23858 54 0 51.7614 0 49V5Z"
+        fill="white" />
+      <path
+        d="M27 11C25.3432 11 24 12.3432 24 14V24H14C12.3432 24 11 25.3431 11 27C11 28.6568 12.3432 30 14 30H24V40C24 41.6569 25.3432 43 27 43C28.6569 43 30 41.6569 30 40V30H40C41.6568 30 43 28.6568 43 27C43 25.3431 41.6568 24 40 24H30V14C30 12.3432 28.6569 11 27 11Z"
+         />
+    </symbol>
+  
+    <symbol id="map-minus" viewBox="0 0 54 54">
+      <path
+        d="M0 5C0 2.23858 2.23858 0 5 0H49C51.7614 0 54 2.23858 54 5V49C54 51.7614 51.7614 54 49 54H5C2.23858 54 0 51.7614 0 49V5Z"
+        fill="white" />
+      <path fill-rule="evenodd" clip-rule="evenodd" class="plus-minus-active"
+        d="M14.1309 30H39.823C41.5727 30 43 28.6423 43 27.0219C43 25.3577 41.5727 24 39.823 24H14.1309C12.4273 24 11 25.3577 11 27.0219C11 28.6423 12.4273 30 14.1309 30Z"
+         />
+    </symbol>
+  </svg>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrap">
+        <div class="footer__col footer__col_logo">
+          <a href="index.html" class="logo logo_footer">
+            <img alt="logo" src="assets/icons/logo.svg" class="logo__img"/>
+          </a>
+        </div>
+        <div class="footer__col footer__col_form">
+          <div class="subscribe">
+            <div class="subscribe__title">Subscribe to our news</div>
+            <form method="post" class="form subscribe-form" data-action="">
+              <input type="email" class="form__input" name="email"  placeholder="Enter your email" pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+.)+[A-z]{2,4}$" required value=""/>
+              <button type="submit" class="form__button">Submit</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer__col footer__col_donate">
+          <a href="donate.html" class="btn-link btn-link_donate">donate for volunteers</a>
+        </div>
+        <div class="footer__col footer__col_social">
+          <ul class="social">
+            <li class="social__item">
+              <a href="https://ru-ru.facebook.com/" class="social__link">
+                <img alt="Facebook" src="assets/icons/fb.svg" class="social__img"/>
+                <span class="social__title">Facebook</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://twitter.com/" class="social__link">
+                <img alt="Twitter" src="assets/icons/tw.svg" class="social__img"/>
+                <span class="social__title">Twitter</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://www.instagram.com/" class="social__link">
+                <img alt="Instagram" src="assets/icons/inst.svg" class="social__img"/>
+                <span class="social__title">Instagram</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://www.youtube.com/" class="social__link">
+                <img alt="YouTube" src="assets/icons/yt.svg" class="social__img"/>
+                <span class="social__title">YouTube</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col footer__col_nav">
+          <nav class="nav-bottom">
+            <ul class="nav-bottom__list">
+              <li class="nav-bottom__item"><a href="#" class="nav-bottom__link active">About</a></li>
+              <li class="nav-bottom__item"><a href="map.html" class="nav-bottom__link">Map</a></li>
+              <li class="nav-bottom__item"><a href="panda.html" class="nav-bottom__link">Zoos</a></li>
+              <li class="nav-bottom__item"><a href="" class="nav-bottom__link">Contact us</a></li>
+            </ul>        
+          </nav>
+        </div>
+        <div class="footer__col footer__col_copyright">
+          <a class="copyright__wrap" href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">
+            <span class="designed">Designed by Alisa Samborskaya</span>
+            <span class="copyright">©RSSchool & ©Yem Digital 2021</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/app.js"></script>
+  <script src="js/map.js"></script>
+
+</body>
+</html>
